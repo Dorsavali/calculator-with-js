@@ -4,9 +4,11 @@
 }
 body {
   display: flex;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
+  flex-flow: row wrap ;
   margin: 100px auto;
+  padding: 40px;
   gap: 20px;
   input {
     padding: 10px 20px;
@@ -43,6 +45,5 @@ body {
     font-family: 'Courier New', Courier, monospace;
     font-size: 22px;
     font-weight: bold;
-    
   }
 }
