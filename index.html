@@ -9,10 +9,14 @@
 <body>
     <input type="number" name="num1" id="num1">
     <input type="number" name="num2" id="num2">
-    <select name="plus" id="plus">+</select>
-    <select name="minus" id="minus">-</select>
-    <select name="multiply" id="multiply">*</select>
-    <select name="division" id="division">/</select>
-    <script src="./main.js"></script>
+    <select id="operator">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+      </select>
+    <input type="submit" value="submit" class="submit">
+    <div class="result"></div>
+    <script src="./main.js" type="module"></script>
 </body>
 </html>

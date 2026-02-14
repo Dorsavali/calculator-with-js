@@ -1,4 +1,48 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px auto;
+  gap: 20px;
+  input {
+    padding: 10px 20px;
+    border: 0.8px solid gray;
+    border-radius: 16px;
+    box-sizing: border-box;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: bold;
+  }
+  .submit {
+    background-color: deepskyblue;
+    color: white;
+    font-size: 20px;
+    text-transform: capitalize;
+    letter-spacing: 5px;
+    cursor: pointer;
+    transition: 500ms;
+    &:hover {
+      background-color: white;
+      color: deepskyblue;
+    }
+  }
+  select {
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    cursor: pointer;
+    border: 0.8px solid gray;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Courier New", Courier, monospace;
+  }
+  .result{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 22px;
+    font-weight: bold;
+    
+  }
 }
